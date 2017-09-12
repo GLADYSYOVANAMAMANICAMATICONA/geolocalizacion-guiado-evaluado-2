@@ -65,7 +65,7 @@ const app = {
             latitud = position.coords.latitude;
             longitud = position.coords.longitude;
     
-            app.markerOrigin.setPosition(new google.maps.LatLng(latitud, longitud));
+            markerOrigin.setPosition(new google.maps.LatLng(latitud, longitud));
             app.map.setCenter({ lat: latitud, lng: longitud });
             app.map.setZoom(17);
     
