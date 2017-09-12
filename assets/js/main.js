@@ -4,7 +4,7 @@ const app = {
     map : undefined,
     markerOrigin : undefined,
     detaillocationorigin : undefined,
-
+    setContent : undefined,
 
     init : function() {
         app.map = new google.maps.Map(document.getElementById("map"), {
